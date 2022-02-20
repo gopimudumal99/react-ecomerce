@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
 import { AuthContext } from '../contexts/LoginProvider';
-import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 import Products from './Products'
 
@@ -26,22 +25,12 @@ function Login() {
     const formSubmit = (e) => { 
       e.preventDefault()
       Tokenfun(formData);
-      addData(formData)
       localStorage.setItem("formData",JSON.stringify(formData))
       setFormData(init)
       toggleAuth()
       navigate("/products")
   }
 
-    const addData = (formData) => {
-      fetch(`http://localhost:3004/users`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-    };
 
   return isAuth?<Products/>:(
     <div>

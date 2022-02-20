@@ -23,20 +23,9 @@ function Register() {
   const formSubmit = (e) => {
     e.preventDefault();
     Tokenfun(formData);
-    addData(formData);
     localStorage.setItem("formData", JSON.stringify(formData));
     setFormData(init);
     toggleAuth();
-  };
-
-  const addData = (formData) => {
-    fetch(`http://localhost:3004/users`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    });
   };
 
   return isAuth ? (
