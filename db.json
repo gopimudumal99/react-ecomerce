@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "username": "GopiMudumal",
+      "email": "gopimudumal99@gmail.com",
+      "password": "1235456",
+      "id": 1
+    },
+    {
+      "username": "GopiMudumal",
+      "email": "gopimudumal99@gmail.com",
+      "password": "h",
+      "id": 2
+    },
+    {
+      "username": "GopiMudumal",
+      "email": "gopimudumal99@gmail.com",
+      "password": "s",
+      "id": 3
+    },
+    {
+      "username": "GopiMudumal",
+      "email": "gopimudumal99@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "username": "GopiMudumal",
+      "email": "gopimudumal99@gmail.com",
+      "password": "fgdfgdfg",
+      "id": 5
+    },
+    {
+      "username": "GopiMudumal",
+      "email": "gopimudumal99@gmail.com",
+      "password": "jh",
+      "id": 6
+    },
+    {
+      "username": "GopiMudumal",
+      "email": "gopimudumal99@gmail.com",
+      "password": "fgvbjnklm,./",
+      "id": 7
+    }
+  ]
+}
